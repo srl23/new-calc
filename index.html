@@ -12,5 +12,29 @@
 <body>
 	<h1>Welcome to Yet Another Calculator Program by SRL23!</h1>
 	<h2>Please input a number, then click or tap your chosen operator, input a second number, and then hit the equals sign to get your solution!</h2>
+		<div id="container">
+		<div id="row1">
+			<button ng-click="ctrl.getNumber(1)" id="1">1</button>
+			<button ng-click="ctrl.getNumber(2)" id="2">2</button>
+			<button id="3">3</button>
+		</div>
+		<div id="row2">
+			<button id="4">4</button>
+			<button id="5">5</button>
+			<button id="6">6</button>
+		</div>
+		<div id="row3">
+			<button id="7">7</button>
+			<button id="8">8</button>
+			<button id="9">9</button>
+			<button id="0">0</button>
+		</div>
+		<div id ="operators">
+			<button id="add">+</button>
+			<button id="sub">-</button>
+			<button id="mult">*</button>
+			<button id="div">-</button>
+		</div>
+	</div>
 </body>
 </html>
